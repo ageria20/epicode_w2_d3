@@ -104,8 +104,12 @@ const starWarsCharacters = [
 /* ESERCIZIO 1
   Crea una variabile chiamata "charactersNames" e assegnale un array vuoto
 */
+console.log(
+  "-----------------------------ESERCIZIO 1-----------------------------"
+);
 
 let charactersNames = [];
+console.log(charactersNames);
 
 /* ESERCIZIO 2
   Utilizzando un ciclo for, cicla l'array "starWarsCharacters".
@@ -135,8 +139,6 @@ let femaleCharacters = [];
 for (let index = 0; index < starWarsCharacters.length; index++) {
   if (starWarsCharacters[index].gender === "female") {
     femaleCharacters.push(starWarsCharacters[index].name);
-  } else {
-    console.log("Non ci sono personaggi donne");
   }
 }
 console.log(femaleCharacters);
@@ -157,6 +159,7 @@ const eyeColor = {
   red: [],
   blueGray: [],
 };
+console.log(eyeColor);
 
 /* ESERCIZIO 5
   Utilizza uno switch statement per inserire uno ad uno gli oggetti dei personaggi di "starWarsCharacters" negli array relativi al colore degli occhi precedentemente creati.
