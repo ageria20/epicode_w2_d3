@@ -186,8 +186,8 @@ for (let index = 0; index < starWarsCharacters.length; index++) {
       eyeColor.red.push(starWarsCharacters[index]);
       break;
   }
-  console.log(eyeColor);
 }
+console.log(eyeColor);
 
 /* ESERCIZIO 6
   Usa un while loop per calcolare la massa totale dell'equipaggio. Salvala in una variabile chiamata "crewMass".
@@ -263,7 +263,7 @@ console.log(charactersNames.length);
 for (let i = 0; i < femaleCharacters.length; i++) {
   for (let y = 0; y < charactersNames.length; y++) {
     if (charactersNames[y] === femaleCharacters[i]) {
-      charactersNames.splice(y, 1);
+      charactersNames.splice(y, femaleCharacters.length - 1);
     }
   }
 }
